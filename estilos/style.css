@@ -9,7 +9,7 @@ html, body{
     width: 100vw;
 }
 body{
-    background: url(../imagens/fundo-madeira.jpg) no-repeat ;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat center center  ;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -18,11 +18,18 @@ main{
     position: relative;
 }
 section#telefone{
-    height: 627px;
-    width: 311px;
+    height: 427px;
+    width: 211px;
     position: absolute;
     left: 50%;
     top: 50%;
-    background: url(../imagens/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat center center/contain;
     transform: translate(-50%,-50%);
+    background-size: 211px 427px;
+}
+iframe{
+    height: 319px;
+    width: 180px;
+    transform: translate(15px,55px);
+
 }
